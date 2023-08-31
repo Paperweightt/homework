@@ -44,7 +44,7 @@ class Game {
         }
 
         string getComputerInput(){
-            string options[3] = ['rock','paper','scissors'];
+            string options[3] = {'rock','paper','scissors'};
             return options[rand(0,3)];
         }
 
