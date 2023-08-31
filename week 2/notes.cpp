@@ -27,12 +27,12 @@ class Game {
         }
 
         void showOutput() {
-            string lines[4] = [
+            string lines[4] = {
                 'Your choice: '+ playerInput,
                 "The computer's choice:" + computerInput,
                 'result' + this.getWinner(),
                 'Score: ' + to_string(this.wins) +'/' + to_string(this.losses)
-            ];
+            };
             cout << lines.join('\n');
         }
 
@@ -40,7 +40,6 @@ class Game {
             if (this.playerInput == this.computerInput) {
                 return 'tie'
             }
-
         }
 
         string getComputerInput(){
