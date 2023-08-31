@@ -1,0 +1,31 @@
+Round 1 - Please enter your choice (rock, paper, scissor, or q to quit):
+  rock
+Your choice: rock
+The computer's choice: rock
+Result: it is a draw
+Score: 0/0
+
+Round 2 - Please enter your choice (rock, paper, scissor, or q to quit): 
+  rock
+Your choice: rock
+The computer's choice: scissor
+Result: You win
+Score: 1/1
+
+Round 3 - Please enter your choice (rock, paper, scissor, or q to quit): 
+...
+...
+
+---------------------------------------------------------------------------
+
+infinit rounds
+
+function to call start a rounds
+
+two ints, one for wins and one for losses
+
+round:
+    take in input
+
+if quit:
+    
